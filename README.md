@@ -32,7 +32,7 @@ Para compilar e executar a aplicação localmente você vai precisar:
 Faça o clone do projeto:
 
 ```shell
-git clone https://github.com/wallacerlima/teste-simios.git
+git clone https://github.com/wallacerlima/todo-list-api.git
 ```
 
 Alterar o arquivo application.properties do projeto com as informações de conexão do banco de dados.
