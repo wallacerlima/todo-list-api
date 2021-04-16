@@ -22,7 +22,7 @@ PUT http://localhost:8080/tarefas/1 [atualiza uma tarefa]
 
 Para compilar e executar a aplicação localmente você vai precisar:
 
-- [JDK 1.8](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+- [JDK 11+](https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html)
 - [MySQL 8.0](https://dev.mysql.com/downloads/mysql/)
 - [Spring Tools](https://spring.io/tools) (recomendado)
 - [Lombok](https://projectlombok.org/download)
