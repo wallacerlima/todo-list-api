@@ -4,18 +4,15 @@ API RESTful para controle de tarefas.
 
 ## API endpoints
 
-### Local
-
 ```shell
-POST http://localhost:8080/simian [analisa uma sequência de DNA]
-GET http://localhost:8080/stats [statisticas dos DNAs consultados]
-```
+POST http://localhost:8080/oauth/token [obter token de autenticação]
 
-### AWS
-
-```shell
-POST http://simios-api.sa-east-1.elasticbeanstalk.com/simian [analisa uma sequência de DNA]
-GET http://simios-api.sa-east-1.elasticbeanstalk.com/stats [statisticas dos DNAs consultados]
+GET http://localhost:8080/tarefas?usuarioId=2 [retorna a lista de tarefas do usuário]
+GET http://localhost:8080/tarefas?usuarioId=2&status=PENDENTE [retorna a lista de tarefas do usuário filtrando pelo status]
+GET http://localhost:8080/tarefas/1 [busca uma tarefa pelo id]
+POST http://localhost:8080/tarefas [cria uma nova tarefa]
+DELETE http://localhost:8080/tarefas [exclui uma tarefa]
+PUT http://localhost:8080/tarefas/1 [atualiza uma tarefa]
 ```
 
 ## Pré-requisitos
