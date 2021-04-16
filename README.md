@@ -45,7 +45,7 @@ spring.datasource.password={SUA_SENHA}
 
 Para compilar o projeto:
 ```shell
-mvn spring-boot:run
+mvn clean install
 ```
 
 Para executar o projeto:
