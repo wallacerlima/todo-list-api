@@ -38,7 +38,7 @@ git clone https://github.com/wallacerlima/todo-list-api.git
 Alterar o arquivo application.properties do projeto com as informações de conexão do banco de dados.
 
 ```shell
-spring.datasource.url=jdbc:mysql://{SEU_HOST}:{SUA_PORTA}/simians?createDatabaseIfNotExist=true
+spring.datasource.url=jdbc:mysql://{SEU_HOST}:{SUA_PORTA}/todolistapi?createDatabaseIfNotExist=true&serverTimezone=UTC
 spring.datasource.username={SEU_USUARIO}
 spring.datasource.password={SUA_SENHA}
 ```
