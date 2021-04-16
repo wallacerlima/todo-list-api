@@ -43,7 +43,12 @@ spring.datasource.username={SEU_USUARIO}
 spring.datasource.password={SUA_SENHA}
 ```
 
-Execute o projeto
+Para compilar o projeto:
+```shell
+mvn spring-boot:run
+```
+
+Para executar o projeto:
 ```shell
 mvn spring-boot:run
 ```
