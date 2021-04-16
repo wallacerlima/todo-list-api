@@ -10,8 +10,11 @@ POST http://localhost:8080/oauth/token [obter token de autenticação]
 GET http://localhost:8080/tarefas?usuarioId=2 [retorna a lista de tarefas do usuário]
 GET http://localhost:8080/tarefas?usuarioId=2&status=PENDENTE [retorna a lista de tarefas do usuário filtrando pelo status]
 GET http://localhost:8080/tarefas/1 [busca uma tarefa pelo id]
+
 POST http://localhost:8080/tarefas [cria uma nova tarefa]
+
 DELETE http://localhost:8080/tarefas [exclui uma tarefa]
+
 PUT http://localhost:8080/tarefas/1 [atualiza uma tarefa]
 ```
 
